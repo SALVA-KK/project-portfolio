@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" type="image/png" href="./myphoto2.jpg">
+
+</head>
+<body>
+    
+<header class="header">
+    <a href="#home" class="logo"><span>Portfolio</span></a>
+    <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+    <nav class="navbar" id="navbar">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skill">Skills</a>
+        <a href="#project">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+<section id="home" class="page">
+    <div class="home-text"><h1>Hi, It's<span> Salva K K</span></h1>
+        <h3>I'm a <span>web Developer</span></h3>
+        <p></p>
+    </div>
+    <div class="social-icons">
+        <a href="#"><i class="fa-brands fa-square-linkedin"></i></a>
+        <a href="#"><i class="fa-brands fa-square-github"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+    </div>
+    <div class="home-img"><img src="./myphoto2.jpg"></div>
+</section>
+<section id="about"  class="page">
+   <div class="aboutme">
+    <h1>About Me<br><br></h1>
+    <p>Hi! I’m Salva K K, a passionate and detail-oriented Web Developer who enjoys transforming ideas into interactive,
+         user-friendly websites.My goal is to build digital experiences that are both visually appealing and functional.
+         When I’m not coding, I’m usually exploring new design trends, learning the latest web tools,
+         or working on creative projects that challenge my skills.</p>
+        </div>
+</section>
+<section id="skill"  class="page">
+    <h1 id="h11">Skills</h1>
+    <div class="skills">
+        <div class="skillsdiv"><img src="./html128.png"><p class="c1">H T M L</p></div>
+        <div class="skillsdiv"><img src="./css128.png"><p class="c1">C S S</p></div>
+        <div class="skillsdiv"><img src="./js128.png"><P class="c1">J - S</P></div>
+    </div>
+</section>
+<section id="project" class="page">
+     <h1>projects</h1>
+    <div class="projects">
+        <div class="projectimg"><img src="./w3school.png"><p class="c2">W3SCHOOL</p></div>
+        <div class="projectimg"><img src="./booking.com.png"><p class="c2">BOOKING.COM</p></div>
+        <div class="projectimg"><img src="./portfol.png"><p class="c2">PORTFOLIO</p></div>
+    </div>
+</section>
+<section id="contact" class="page">
+    <h1 >Contact Me</h1>
+    <form action="https://api.web3forms.com/submit" method="POST">
+    <div class="contacts">
+        <input type="hidden" name="access_key" value="27429d8b-48fe-420a-9734-c79f3a8efa76">
+       <input type="text" name="fullName" id="fullName" placeholder="Full Name" class="in"><br>
+       <input type="email" name="email"  id="email" placeholder="Email" class="in"><br>
+    </div>
+    <div class="contacts">
+        <input type="number" name="number" id="number" placeholder="Number" class="in"><br>
+        <input type="text" name="subject" id="subject" placeholder="Subject" class="in">
+    </div>
+    
+    <div>
+    <textarea cols="108" rows="10" id="message" placeholder="Your Message" class="in"></textarea>
+    
+    </div>
+    <input type="submit" class="btn" id="sbtn">
+    </form>
+</section>
+    <script src="portfolio.js"></script>
+    
+</body>
+</html>
